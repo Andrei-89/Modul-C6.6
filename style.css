@@ -1,0 +1,71 @@
+.btnSend, .btnGeo {
+    padding: 0;
+    background-color: transparent;
+    /* border: none; */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: black;
+    background: #631bff;
+    transition: 0.3s;
+
+
+    color: #631bff;
+    background-color: #ffffff;
+    border-color:  #631bff;
+    border-radius: 0.4rem;
+    /* background-color: #10910e;*/
+    
+    /* border: none; */
+
+  }
+  
+  .btnSend:hover, .btnGeo:hover  {
+    /* box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05); */
+    background-color: #631bff;;
+    color: #ffffff;
+  }
+
+  .result {
+    padding: 5px 5px;
+    border: solid;
+    border-color: #631bff;
+    display: block;
+    width: 550px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .inputMsg {
+    border-color: #631bff;
+    border-style: solid;  
+    padding: 0;
+    background-color: transparent;
+    /* border: none; */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    border-radius: 0.4rem;
+  }
+  
+  .inputMsg::placeholder {
+    color: #631bff;
+    font-weight: 600;
+    border-radius: 0.4rem;
+  }
